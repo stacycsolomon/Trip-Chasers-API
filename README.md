@@ -1,6 +1,6 @@
 # Trip Chasers
 
-A social media app that connects like-minded travellers from across the globe to communicate, share their thoughts, post cool trip ideas, and more!
+A social media app that connects like-minded travelers from across the globe to communicate, share their thoughts, post cool trip ideas, and more!
 
 ## User Stories 
 
