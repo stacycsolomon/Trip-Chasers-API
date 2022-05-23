@@ -10,6 +10,19 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  username: {
+    type: String,
+    required: true,
+    unique: true
+  },
+  profilePicture: {
+    type: String,
+    default: ''
+  },
+  coverPicture: {
+    type: String,
+    default: ''
+  },
   token: String
 }, {
   timestamps: true,
