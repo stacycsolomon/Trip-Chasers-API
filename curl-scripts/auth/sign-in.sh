@@ -3,7 +3,7 @@
 API="http://localhost:4741"
 URL_PATH="/sign-in"
 EMAIL="newuser@gmail.com"
-PASSWORD="newuser"
+PASSWORD="newuser2"
 
 curl "${API}${URL_PATH}" \
   --include \
