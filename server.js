@@ -45,8 +45,7 @@ const port = process.env.PORT || serverDevPort
 // register passport authentication middleware
 app.use(auth)
 
-// add `express.json` middleware which will parse JSON requests into
-// JS objects before they reach the route files.
+// add `express.json` middleware which will parse JSON requests into JS objects before they reach the route files.
 // The method `.use` sets up middleware for the Express application
 app.use(express.json())
 // this parses requests sent by `$.ajax`, which use a different content type
